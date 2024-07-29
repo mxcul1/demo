@@ -8,7 +8,7 @@ def main():
 try:
     num1 = float(sys.argv[1])
     num2 = float(sys.argv[2])
-    result = num1 * num2
+    result = num1 + num2
     print(result)
 
 except ValueError:
